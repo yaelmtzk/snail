@@ -51,6 +51,17 @@ export function MailIndex() {
 
     }
 
+    function onSendMail(toMail, mailSub, content) {
+        const newMail = mailService.createMail(toMail, mailSub, content)
+        
+        return mailService.save(newMail)
+        .then(() => {
+            loadMails()
+            return newMail
+        })
+        .catch(err => console.error('Failed to save mail:', err))
+    }
+
     const handleStar = (mailId, newValue) => {
         console.log(newValue);
 
@@ -136,7 +147,9 @@ export function MailIndex() {
                     />)
             }
             {isComposeOpen && (
-                <NewMail onClose={() => setIsComposeOpen(false)} />
+                <NewMail 
+                onClose={() => setIsComposeOpen(false)}
+                onSend={onSendMail} />
             )}
             <LeftSideBar />
         </section>

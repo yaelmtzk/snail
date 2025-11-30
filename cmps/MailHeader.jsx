@@ -6,9 +6,9 @@ export function MailHeader() {
             <section className="header-left">
                 {/* <i className="fa-solid fa-bars"></i> */}
                 <img className="mail-logo"
-                 src="../assets/img/mail-logo.png" alt="Mail Logo" />
+                 src="../assets/img/smail-logo.png" alt="Mail Logo" />
                 <div className="mail-logo-name">
-                    <NavLink to="/mail">Snail</NavLink>
+                    <NavLink to="/mail">Smail</NavLink>
                 </div>
             </section>
 
