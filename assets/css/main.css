@@ -1,22 +1,22 @@
 /* Setup */
 
-@import './setup/variables.css';
+@import 'setup/variables.css';
 
 /* Basics */
 
-@import './basics/base.css';
-@import './basics/helpers.css';
+@import 'basics/base.css';
+@import 'basics/helpers.css';
 /* @import './basics/layout.css'; */
 
 /* Pages */
-@import './pages/home.css';
-@import './pages/about.css';
-@import './pages/MailIndex.css';
-@import './pages/MailDetails.css';
+@import 'pages/home.css';
+@import 'pages/about.css';
+@import 'pages/MailIndex.css';
+@import 'pages/MailDetails.css';
 
 /* Cmps */
-@import './cmps/MailList.css';
-@import './cmps/MailPreview.css';
-@import './cmps/MailHeader.css';
-@import './cmps/RightSideBar.css';
-@import './cmps/NewMail.css';
+@import 'cmps/MailList.css';
+@import 'cmps/MailPreview.css';
+@import 'cmps/MailHeader.css';
+@import 'cmps/RightSideBar.css';
+@import 'cmps/NewMail.css';

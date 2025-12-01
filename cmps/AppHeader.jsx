@@ -1,4 +1,4 @@
-import { MailHeader } from "./MailHeader.jsx"
+import { MailHeader } from "MailHeader.jsx"
 
 const { Link, NavLink, useLocation } = ReactRouterDOM
 

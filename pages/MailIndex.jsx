@@ -1,9 +1,9 @@
-import { mailService } from "./services/mail.service.js"
-import { MailList } from "./cmps/MailList.jsx"
-import { MailDetails } from "./pages/MailDetails.jsx"
-import { NewMail } from "./cmps/NewMail.jsx"
-import { RightSideBar } from "./cmps/RightSideBar.jsx"
-import { LeftSideBar } from "./cmps/LeftSideBar.jsx"
+import { mailService } from "../services/mail.service.js"
+import { MailList } from "../cmps/MailList.jsx"
+import { MailDetails } from "MailDetails.jsx"
+import { NewMail } from "../cmps/NewMail.jsx"
+import { RightSideBar } from "../cmps/RightSideBar.jsx"
+import { LeftSideBar } from "../cmps/LeftSideBar.jsx"
 
 const { useState, useEffect } = React
 const { useSearchParams, useNavigate } = ReactRouterDOM

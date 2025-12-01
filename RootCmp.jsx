@@ -1,11 +1,11 @@
 const { Route, Routes } = ReactRouterDOM
 const Router = ReactRouterDOM.HashRouter
 
-import { AppHeader } from './cmps/AppHeader.jsx'
-import { About } from './pages/About.jsx'
-import { Home } from './pages/Home.jsx'
-import { MailIndex } from './pages/MailIndex.jsx'
-import { MailDetails } from './pages/MailDetails.jsx'
+import { AppHeader } from 'cmps/AppHeader.jsx'
+import { About } from 'pages/About.jsx'
+import { Home } from 'pages/Home.jsx'
+import { MailIndex } from 'pages/MailIndex.jsx'
+import { MailDetails } from 'pages/MailDetails.jsx'
 
 export function App() {
     return (
